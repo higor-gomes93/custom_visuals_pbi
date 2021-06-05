@@ -2,7 +2,7 @@
     "visual":{
         "name":"scatter3d",
         "displayName":"Scatter3D",
-        "guid":"CustomGraph",
+        "guid":"CustomScatter",
         "visualClassName":"Visual",
         "version":"1.0.0",
         "description":"Gráfico de scatter 3d customizado para Power BI",

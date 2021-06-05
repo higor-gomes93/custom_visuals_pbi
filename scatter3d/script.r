@@ -9,7 +9,7 @@ libraryRequireInstall("dplyr");
 ################### Actual code ####################
 colors <- c('#149400', '#0B88E0', '#8700E0', '#CD00E0', '#E0183B', '#E0540E', '#E0AB3C', '#E0CF19', '#C3DECC')
 p <- Values %>%
-  plot_ly( x = ~performance, y = ~potential, z = ~engagement, color = ~area, colors = colors, text = ~paste('Nome: ', nome)) %>%
+  plot_ly( x = ~performance, y = ~potential, z = ~engagement, color = ~area, colors = colors, text = ~paste('Nome: ', name)) %>%
   add_markers() %>%
   layout(scene = list(xaxis = list(title = list(text = 'Performance')),
                       yaxis = list(title = list(text = 'Potencial')),

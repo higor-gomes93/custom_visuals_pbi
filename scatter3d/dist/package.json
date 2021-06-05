@@ -5,10 +5,10 @@
         {
             "resourceId": "rId0",
             "sourceType": 5,
-            "file": "resources/CustomGraph.pbiviz.json"
+            "file": "resources/CustomScatter.pbiviz.json"
         }
     ],
-    "visual": {"name":"scatter3d","displayName":"Scatter3D","guid":"CustomGraph","visualClassName":"Visual","version":"1.0.0","description":"Gráfico de scatter 3d customizado para Power BI","supportUrl":"www.google.com","gitHubUrl":""},
+    "visual": {"name":"scatter3d","displayName":"Scatter3D","guid":"CustomScatter","visualClassName":"Visual","version":"1.0.0","description":"Gráfico de scatter 3d customizado para Power BI","supportUrl":"www.google.com","gitHubUrl":""},
     "metadata": {
         "pbivizjson": {
             "resourceId": "rId0"

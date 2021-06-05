@@ -5,8 +5,8 @@ import VisualConstructorOptions = powerbiVisualsApi.extensibility.visual.VisualC
 var powerbiKey: any = "powerbi";
 var powerbi: any = window[powerbiKey];
 
-var CustomGraph: IVisualPlugin = {
-    name: 'CustomGraph',
+var CustomScatter: IVisualPlugin = {
+    name: 'CustomScatter',
     displayName: 'Scatter3D',
     class: 'Visual',
     apiVersion: '2.6.0',
@@ -23,7 +23,7 @@ var CustomGraph: IVisualPlugin = {
 if (typeof powerbi !== "undefined") {
     powerbi.visuals = powerbi.visuals || {};
     powerbi.visuals.plugins = powerbi.visuals.plugins || {};
-    powerbi.visuals.plugins["CustomGraph"] = CustomGraph;
+    powerbi.visuals.plugins["CustomScatter"] = CustomScatter;
 }
 
-export default CustomGraph;
+export default CustomScatter;
