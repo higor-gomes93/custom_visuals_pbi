@@ -54,7 +54,7 @@ vis.nodes$color <- dados_cor$source_color
 vis.edges <- edges
 vis.edges$color <- list(color = '#2B2B2B')
 
-p <- visNetwork(vis.nodes, vis.edges, background = "white")%>%
+p <- visNetwork(vis.nodes, vis.edges, background = "white", width = "100%", height = "100vh")%>%
   visIgraphLayout()%>%
   visOptions(highlightNearest = TRUE)
 p
