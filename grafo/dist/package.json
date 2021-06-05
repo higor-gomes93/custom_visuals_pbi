@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"Higor Gomes","email":"higor.a.gomes93@gmail.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/CustomGraph.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"grafo","displayName":"Grafo","guid":"CustomGraph","visualClassName":"Visual","version":"1.0.0","description":"Grafo customizado para Power BI","supportUrl":"www.google.com","gitHubUrl":""},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}
