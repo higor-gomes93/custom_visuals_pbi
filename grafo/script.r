@@ -55,8 +55,8 @@ vis.edges <- edges
 vis.edges$color <- list(color = '#2B2B2B')
 
 p <- visNetwork(vis.nodes, vis.edges, background = "white")%>%
-  visOptions(highlightNearest = TRUE)%>%
-  visPhysics(solver = "repulsion", repulsion = list(nodeDistance = 100))
+  visIgraphLayout()%>%
+  visOptions(highlightNearest = TRUE)
 p
 
 ####################################################
