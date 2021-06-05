@@ -56,7 +56,8 @@ vis.edges$color <- list(color = '#2B2B2B')
 
 p <- visNetwork(vis.nodes, vis.edges, background = "white")%>%
   visIgraphLayout()%>%
-  visOptions()
+  visOptions(highlightNearest = TRUE)
+
 ####################################################
 
 ############# Create and save widget ###############
